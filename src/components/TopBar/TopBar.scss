@@ -1,0 +1,30 @@
+.header {
+    background:url(../../assets/mandala.png) top 15%  left 35%  no-repeat; 
+    background-attachment: inherit;
+    background-size: cover;
+    background-color: #282c34;
+    font-family: "Comic Sans MS", serif;
+    font-style: oblique;
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Brush Script MT", cursive;
+    padding: 0 10px;
+    color: rgb(187, 255, 0);
+    text-transform: lowercase;
+    // transition: top 0.3s;
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+    transform: translate3d(0, 0, 0);
+
+    .menu {
+      color: lightgrey;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 30%;
+    }
+}

@@ -1,0 +1,57 @@
+.jarallax-wrap {
+    position: relative;
+    background-color: #e4e4e6;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+    // jarallax will use position: absolute and we can add border radius to images
+    transform: translateX(0);
+}
+
+.jarallax {
+    position: relative;
+    z-index: 0;
+    min-height: 50vh;
+}
+
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    object-position: 5% 50% !important;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.overlay-container {
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0.45turn, #333, transparent, #333);
+}
+
+.content {
+    background: transparent;
+    margin: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    text-align: end;
+    font-family: "Brush Script MT", cursive;
+    font-size: 4rem;
+    font-weight: normal;
+    padding: 5%;
+    position: relative;
+}

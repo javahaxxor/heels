@@ -1,0 +1,23 @@
+@import 'styles/colors';
+
+body {
+  // background:url(./assets/feet.jpg) top left no-repeat; background-attachment:fixed;
+  // background-size: cover;
+  background-color: #282c34;
+
+  margin: 0;
+  font-family: 'Helvetica','Roboto', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@font-face {
+  font-family: 'Brush Script MT';
+  src: local('Brush Script MT'), url(./assets/fonts/BRUSHSCI.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}

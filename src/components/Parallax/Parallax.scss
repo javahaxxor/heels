@@ -1,0 +1,64 @@
+// //let positionY = self.parallaxScrollDistance * fromViewportCenter;
+// @function pow($base, $exponent) {
+//   $result: 1;
+//   @for $_ from 1 through $exponent {
+//     $result: $result * $base;
+//   }
+//   @return $result;
+// }
+
+// .parallax-container {
+//     background-color: inherit;
+//     position: relative;
+//     width: 100%;
+//     height: 100%;
+//     margin-bottom: 20px;
+//     overflow: hidden;
+//     // overflow-x: hidden;
+//     // overflow-y: scroll;
+//     perspective: 8px;
+//     perspective-origin: 0%;
+//     display: flex;
+//     transform: translateX(0);
+// }
+
+// .background {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     overflow: hidden;
+//     z-index: -100;
+//     transform: translateZ(0px);
+// }
+  
+// .foreground {
+//     margin-top: auto;
+//     margin-bottom: 50px;
+//     transform-origin: 0;
+//     transform: translateZ(3px) scale(0.625);
+// }
+  
+// .foreground h1 {
+//     font-size: 36px;
+// }
+
+// img {
+//   object-fit: cover; 
+//   object-position: 50% 50%; 
+//   max-width: none; 
+//   position: absolute; 
+//   top: 0px; 
+//   left: 0px; 
+//   width: 265.2px; 
+//   height: 341.08px; 
+//   overflow: hidden; 
+//   pointer-events: none; 
+//   transform-style: preserve-3d;
+//   backface-visibility: hidden; 
+//   will-change: transform, opacity; 
+//   margin-top: 18.96px; 
+//   transform: translate3d(0px, -125.36px, 0px);
+
+// }
